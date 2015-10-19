@@ -1,0 +1,55 @@
+{
+	"ImportPath": "github.com/cloudfoundry/cf-acceptance-tests",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/cf-test-helpers/cf",
+			"Rev": "135579ed3e53d6ac04cb14e1f6e2b302a0212509"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/cf-test-helpers/generator",
+			"Rev": "135579ed3e53d6ac04cb14e1f6e2b302a0212509"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/cf-test-helpers/helpers",
+			"Rev": "135579ed3e53d6ac04cb14e1f6e2b302a0212509"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry-incubator/cf-test-helpers/runner",
+			"Rev": "135579ed3e53d6ac04cb14e1f6e2b302a0212509"
+		},
+		{
+			"ImportPath": "github.com/cloudfoundry/noaa",
+			"Rev": "f8b6ee8f26675363c07e7c6c4bdb85f079277ecf"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/proto",
+			"Rev": "b9e369e8ffb6773efc654ea13594566404314ee1"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "87f6f6a22ebfbc3f89b9ccdc7fddd1b914c095f9"
+		},
+		{
+			"ImportPath": "github.com/nu7hatch/gouuid",
+			"Rev": "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
+		},
+		{
+			"ImportPath": "github.com/onsi/ginkgo",
+			"Comment": "v1.1.0-29-g18c73cf",
+			"Rev": "18c73cfeca1095f984c036a04c42ac0b08048685"
+		},
+		{
+			"ImportPath": "github.com/onsi/gomega",
+			"Comment": "v1.0-23-g2cd6d99",
+			"Rev": "2cd6d99ccf3ac7ae8398d8296429161bf7061ae2"
+		},
+		{
+			"ImportPath": "github.com/pivotal-golang/archiver/extractor/test_helper",
+			"Rev": "8313f4fb92fd04f23d3132024ca1cdad3bebec3e"
+		}
+	]
+}

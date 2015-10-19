@@ -1,0 +1,7 @@
+---
+name: gorouter
+dependencies:
+- golang-1.5
+files:
+- github.com/cloudfoundry/gorouter/**/*.{go,golden,proto,c,h,}
+- github.com/cloudfoundry/gorouter/**/Makefile
